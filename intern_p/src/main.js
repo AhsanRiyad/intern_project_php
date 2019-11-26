@@ -4,11 +4,16 @@ import vuetify from './plugins/vuetify';
 import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 import Routes from './routes'
+import Axios from 'axios'
+
+
+
 
 Vue.config.productionTip = false
 
 Vue.use(VueResource);
 Vue.use(VueRouter);
+Vue.use(Axios);
 
 
 const router = new VueRouter({
